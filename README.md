@@ -1,5 +1,5 @@
 # 💫 About Me:
- I'm Lyes, a passionate web developer currently working as a freelancer'm always on the lookout for opportunities to collaborate with other freelancers on exciting projects. Right now, I'm also advancing my skills by pursuing a master's degree in system engineering Let's connect and build something amazing together!<br>
+I'm Lyes, a dedicated web developer with a passion for creating innovative solutions. Currently working as a freelancer, I'm also pursuing a master's degree in system engineering. I'm actively seeking opportunities to enhance my skills and take on new challenges. I'm eager to collaborate with like-minded professionals to turn ideas into impactful projects. Let's connect and create something extraordinary together!<br>
 
 
 ## 🌐 Socials:
