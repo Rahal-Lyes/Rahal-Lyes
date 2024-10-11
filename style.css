@@ -190,7 +190,11 @@ header .container .logo .logo-text {
 .hero .hero-yellow {
   flex: 1;
   padding: 0 30px;
+
+
 }
+
+
 .hero .hero-yellow img {
   clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
   max-width: 420px;
