@@ -445,33 +445,7 @@ h1 {
   }
 }
 
-/* .footer {
-  width: 100%;
-  height: 200px;
-  display: flex;
-  justify-content: space-around;
-  .containers{
-    font-size: 1.3rem;
-    text-align: center;
-    color:#0a61ae
-  }
 
-  .links{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    a{
-      display: flex;
-      align-items: center;
-      gap: 20px;
-      text-decoration: none;
-      color: var(--blue);
-      font-size: 1.2rem;
-    }
-  }
-  
- 
-} */
 .footer {
   width: 100%;
   background: var(--base-100);
