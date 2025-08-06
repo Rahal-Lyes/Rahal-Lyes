@@ -1,242 +1,314 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/jpg" href="./images/dv150.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>PortoFolio Web Developper || Lyes Rahal</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./style.css" />
-  <link rel="icon" type="image/jpg" href="./images/dv150.png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-    rel="stylesheet" />
-  <title>PortoFolio Web Developper || Lyes Rahal</title>
-</head>
-
-<body>
-  <header>
-    <div class="container">
-      <a href="#" class="logo">
-        <div class="text">
-          <img src="../images/dv150.png" alt="" />
-        </div>
-        <div class="logo-text">PortoFolio</div>
-      </a>
-      <nav id="menu">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#project">Projects</a></li>
-          <li><a href="mailto:lyesrahal.cs@gmail.com" class="contactMe">Contact Me</a></li>
-        </ul>
-        <a href="#" class="menu-toggle"><svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-            <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14" />
-          </svg>
+  <body>
+    <header>
+      <div class="header-container">
+        <a href="#" class="logo">
+          <div class="logo-icon">LR</div>
+          Portfolio
         </a>
-      </nav>
-    </div>
-  </header>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li>
+              <a href="mailto:lyesrahal.cs@gmail.com" class="contact-btn"
+                >Contact</a
+              >
+            </li>
+            <li><button class="theme-toggle" id="themeToggle">🌙</button></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-  <main>
-    <section class="hero container">
-      <div class="hero-blue">
-        <div>
-          <h1><small>Hi I'm</small> Lyes Rahal</h1>
+    <main>
+      <section class="hero container" id="home">
+        <div class="hero-content fade-in">
+          <div class="subtitle">👋 Hello, I'm</div>
+          <h1>Lyes Rahal</h1>
           <p>
-            a web developer based in Algeria.I'm a bachelor's degree in
-            computer science and currently pursuing a master's degree in
-            systems engineering, I create dynamic and responsive web
-            applications using PHP, Node.js, and Vue.js.,<span>I bring both creativity and technical expertise to my
-              projects.
-            </span>
+            Full-Stack Developer based in Algeria. With a Master's in
+            Information Systems Engineering, I create dynamic and responsive web
+            applications using Vue.js, Django, PHP, and REST APIs.
           </p>
-          <div class="calls-to-action">
-            <a href="./Computer-Scientiste v-2.pdf" class="button black">Downoald CV
-              <img src="./social-links/pdf-svgrepo-com.svg" width="20px" height="20px" alt="pdf" " />
+          <div class="cta-buttons">
+            <a href="#" class="btn btn-primary"> 📄 Download CV </a>
+            <a href="mailto:lyesrahal.cs@gmail.com" class="btn btn-secondary">
+              💬 Contact Me
             </a>
-            <a href="mailto:lyesrahal.cs@gmail.com" class="button white">Cantact Me</a>
           </div>
-
-          <div class="socials-links">
+          <div class="social-links">
             <a href="https://github.com/Rahal-Lyes">
-              <img src="./social-links/Github_light.svg" alt="github" width="48px" />
+              <span>
+                <img src="./social-links/Github_light.svg" width="40px"
+              /></span>
             </a>
             <a href="https://linkedin.com/in/rahal-lyes">
-              <img src="./social-links/linkedin.svg" alt="linkdin" width="48px" />
+              <span>
+                <img src="./social-links/linkedin.svg" width="40px"
+              /></span>
             </a>
             <a href="https://web.facebook.com/ilyes.rhl.5/">
-        <img src="./social-links/facebook.svg" alt="facebook" width="48" height="48">
-  
-      </a>
+              <span>
+                <img src="./social-links/facebook.svg" width="40px"
+              /></span>
+            </a>
           </div>
         </div>
-      </div>
-      <div class="hero-yellow">
-        <img src="./images/B612_20171004_010537.jpg " alt="My Picture" width="100%" />
-      </div>
-    </section>
-
-    <section class="logos container">
-      <div class="marquee">
-        <div class="track">
-          <img src="./social-links/programming/html5.svg" width="128px" />
-          <img src="./social-links/programming/css.svg" width="128px" />
-          <img src="./social-links/programming/javascript.svg" width="128px" />
-          <img src="./social-links/programming/jQuery_light.svg" width="128px" />
-          <img src="./social-links/programming/c.svg" width="128px" />
-          <img src="./social-links/programming/git.svg" width="128px" />
-          <img src="./social-links/programming/intellijidea.svg" width="128px" />
-          <img src="./social-links/programming/jwt.svg" width="128px" />
-          <img src="./social-links/programming/mongodb-wordmark.svg" width="128px" />
-          <img src="./social-links/programming/mysql.svg" width="128px" />
-          <img src="./social-links/programming/nodejs.svg" width="128px" />
-          <img src="./social-links/programming/npm.svg" width="128px" />
-          <img src="./social-links/programming/Php_light.svg" width="128px" />
-          <img src="./social-links/programming/phpstorm.svg" width="128px" />
-          <img src="./social-links/programming/pinia.svg" width="128px" />
-          <img src="./social-links/programming/postman.svg" width="128px" />
-          <img src="./social-links/programming/sqlite.svg" width="128px" />
-          <img src="./social-links/programming/Supabase_wordmark_light.svg" width="128px" />
-          <img src="./social-links/programming/tailwindcss.svg" width="128px" />
-          <img src="./social-links/programming/vscode.svg" width="128px" />
-          <img src="./social-links/programming/vue.svg" width="128px" />
-          <img src="./social-links/programming/Express.js_light.svg" width="128px" />
-          <img src="./social-links/programming/wordpress.svg" width="128px" />
+        <div class="hero-image fade-in">
+          <div class="hero-image-container">
+            <div
+              style="
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(135deg, #6366f1, #f59e0b);
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+              "
+            >
+              <img
+                src="./images/B612_20171004_010537.jpg"
+                alt="Profile Picture"
+                style="width: 100%; height: 100%; object-fit: cover"
+              />
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="skills container" id="skills">
-
-      <h2> <small>About me</small>Skills</h2>
-
-      <div class="holder-blue">
-        <div class="left-column">
-          <h3>Frontend</h3>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>TailwindCss</li>
-            <li>Vue js</li>
-          </ul>
-          <h3>Backend</h3>
-          <ul>
-            <li>Nodejs</li>
-            <li>Expressjs</li>
-            <li>Php</li>
-          </ul>
-       
+      <section class="tech-stack">
+        <div class="marquee">
+          <div class="track">
+            <img src="./social-links/programming/html5.svg" width="128px" />
+            <img src="./social-links/programming/css.svg" width="128px" />
+            <img
+              src="./social-links/programming/javascript.svg"
+              width="128px"
+            />
+            <img
+              src="./social-links/programming/jQuery_light.svg"
+              width="128px"
+            />
+            <img src="./social-links/programming/c.svg" width="128px" />
+            <img src="./social-links/programming/git.svg" width="128px" />
+            <img
+              src="./social-links/programming/intellijidea.svg"
+              width="128px"
+            />
+            <img src="./social-links/programming/jwt.svg" width="128px" />
+            <img
+              src="./social-links/programming/mongodb-wordmark.svg"
+              width="128px"
+            />
+            <img src="./social-links/programming/mysql.svg" width="128px" />
+            <img src="./social-links/programming/nodejs.svg" width="128px" />
+            <img src="./social-links/programming/npm.svg" width="128px" />
+            <img src="./social-links/programming/Php_light.svg" width="128px" />
+            <img src="./social-links/programming/phpstorm.svg" width="128px" />
+            <img src="./social-links/programming/pinia.svg" width="128px" />
+            <img src="./social-links/programming/postman.svg" width="128px" />
+            <img src="./social-links/programming/sqlite.svg" width="128px" />
+            <img
+              src="./social-links/programming/Supabase_wordmark_light.svg"
+              width="128px"
+            />
+            <img
+              src="./social-links/programming/tailwindcss.svg"
+              width="128px"
+            />
+            <img src="./social-links/programming/vscode.svg" width="128px" />
+            <img src="./social-links/programming/vue.svg" width="128px" />
+            <img
+              src="./social-links/programming/Express.js_light.svg"
+              width="128px"
+            />
+            <img src="./social-links/programming/wordpress.svg" width="128px" />
+          </div>
         </div>
-        <div class="right-column">
-          <p>I am proficient in web development technologies such as HTML, CSS, and JavaScript, with hands-on experience in Vue.js for creating dynamic and interactive user interfaces. I also use TailwindCSS for efficient and responsive design, which enhances the user experience.</p>
-          <p>I have experience in backend development, primarily with native PHP to create web solutions. I am also working on developing my skills in Node.js with Express. Although I am still a beginner with Node.js, I am actively learning and applying this technology to build scalable server-side applications. My growing expertise in both technologies allows me to develop comprehensive and high-performing web applications</p>
+      </section>
+
+      <section class="skills container" id="skills">
+        <div class="section-title fade-in">
+          <h2>My Skills</h2>
+          <p class="subtitle">Technologies and tools I master</p>
         </div>
+        <div class="skills-grid">
+          <div class="skill-card fade-in">
+            <h3>🎨 Frontend</h3>
+            <div class="skill-list">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">Vue.js</span>
+              <span class="skill-tag">TailwindCSS</span>
+              <span class="skill-tag">Vuetify</span>
+            </div>
+          </div>
+          <div class="skill-card fade-in">
+            <h3>⚙️ Backend</h3>
+            <div class="skill-list">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">Django</span>
+              <span class="skill-tag">Django REST</span>
+              <span class="skill-tag">PHP</span>
+              <span class="skill-tag">SQL</span>
+              <span class="skill-tag">MySQL</span>
+            </div>
+          </div>
+          <div class="skill-card fade-in">
+            <h3>🛠️ Tools & DevOps</h3>
+            <div class="skill-list">
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">Docker</span>
+              <span class="skill-tag">Postman</span>
+              <span class="skill-tag">Linux</span>
+              <span class="skill-tag">VS Code</span>
+              <span class="skill-tag">JWT</span>
+            </div>
+          </div>
+        </div>
+      </section>
 
-      </div>
-      </div>
-    </section>
-
-    <section class="work-exprience container" id="project">
-
-      <h2>
-        <small>Previous</small>
-        Completed Projects
-      </h2>
-
-      <div class="jobs">
-        <article>
-   
-            <figure>
-
-              <div>
-                <img src="./images/bloodshare.png" alt="Bloodshare" width="100%">
-                <figcaption>Plateform Donneurs De Sang</figcaption>
+      <section class="projects container" id="projects">
+        <div class="section-title fade-in">
+          <h2>Recent Projects</h2>
+          <p class="subtitle">Discover my latest projects and achievements</p>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card fade-in">
+            <div class="project-image">🩸 BloodShare</div>
+            <div class="project-content">
+              <h3>Blood Donation Platform</h3>
+              <div class="project-date">March 2024 - June 2024</div>
+              <p class="project-description">
+                Blood donation platform developed as part of the final year
+                project (PFE). It quickly connects donors and recipients,
+                optimizing access to urgent transfusions.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">jQuery</span>
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
               </div>
-            </figure>
-            <h3>Réalisation d'une plateforme de don de sang
-              </h3>
-            <div>Mars 2024 - Juin 2024</div>
-            <p>Réalisation d'une plateforme de don de sang - Projet
-              de fin d'études (PFE),Conception d'une plateforme de don de sang pour relier
-               rapidement donneurs et demandeurs, optimisant l'accès aux transfusions urgentes  .</p>
-               <div>
-                JavaScript, jQuery, PHP, HTML5, MySQL, CSS 3
-               </div>
-               <a href="http://bloodshare.free.nf/public/index.php" style="text-decoration: none; font-size: medium;">Bloodshare</a>
-          
-        </article>
-
-        <article>
-          <figure>
-
-            <div>
-              <img src="./images/findJobs.png" alt="Find Jobs" width="100%">
-              <figcaption>Plateform Find jobs</figcaption>
+              <a
+                href="http://bloodshare.free.nf/public/index.php"
+                class="project-link"
+              >
+                View Project →
+              </a>
             </div>
-          </figure>
-          <h3>Trust Me</h3>
-          <div>Juillet 2024 - Aout 2024</div>
-          <p>Trust Me est une plateforme qui aide les utilisateurs à trouver des opportunités d'emploi en connectant efficacement chercheurs et employeurs.</p>
-          <div>
-            Vuejs , TailwindCss
-           </div>
-        </article>
+          </div>
 
-          <article>
-          <figure>
-
-            <div>
-              <img src="./images/vue.png" alt="Hospital-Scheduling" width="100%">
-              <figcaption>Hospital-Scheduling</figcaption>
+          <div class="project-card fade-in">
+            <div class="project-image">💼 Trust Me</div>
+            <div class="project-content">
+              <h3>Job Search Platform</h3>
+              <div class="project-date">July 2024 - August 2024</div>
+              <p class="project-description">
+                Trust Me is a platform that helps users find job opportunities
+                by efficiently connecting job seekers and employers.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Vue.js</span>
+                <span class="tech-tag">TailwindCSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <a href="#" class="project-link"> View Project → </a>
             </div>
-          </figure>
-          <h3>Hospital-Scheduling</h3>
-          <div>Octobre 2024 - Mars 2025</div>
-          <p>Hospital-Scheduling est une plateforme intelligente qui facilite la gestion des rendez-vous médicaux. Les médecins peuvent y organiser leur emploi du temps, tandis que les patients peuvent réserver facilement des consultations en ligne</p>
-          <div>
-            Vuejs 3 ,vuetify,vuefinder,pinia,axios
-           </div>
-        </article>
-      </div>
-    </section>
-  </main>
+          </div>
+        </div>
+      </section>
 
-<footer class="footer">
-  <div class="footer-content">
-    <div class="footer-info">
-      <h3>Lyes Rahal</h3>
-      <p>I’m a passionate web developer based in Algeria, focused on creating dynamic and responsive web applications with Node.js, and Vue.js.</p>
-      <div class="copyright">
-        2025 Lyes Rahal. Tous droits réservés.
-      </div>
-    </div>
-    
-    <div class="divider"></div>
-    
-    <div class="social-links">
-      
-      <a href="https://github.com/Rahal-Lyes">
-        <img src="./social-links/Github_light.svg" alt="github" width="28" height="28">
-        GitHub
-      </a>
-      <a href="https://linkedin.com/in/rahal-lyes">
-        <img src="./social-links/linkedin.svg" alt="linkedin" width="28" height="28">
-        LinkedIn
-      </a>
-      <a href="mailto:lyesrahal.cs@gmail.com">
-        <img src="./social-links/icons8-gmail.svg" alt="email" width="28" height="28">
-        Email
-      </a>
-        <a href="https://web.facebook.com/ilyes.rhl.5/">
-        <img src="./social-links/facebook.svg" alt="facebook" width="28" height="28">
-        Facebook
-      </a>
-    </div>
-  </div>
-</footer>
-  <script src="./main.js"></script>
-</body>
+      <section class="projects container" id="projects">
+        <div class="section-title fade-in">
+          <h2>Projects I worked on</h2>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card fade-in">
+            <div class="project-image">🏥 Hospital Scheduling</div>
+            <div class="project-content">
+              <h3>Medical Appointment Management</h3>
+              <div class="project-date">October 2024 - March 2025</div>
+              <p class="project-description">
+                Smart platform that facilitates medical appointment management.
+                Doctors can organize their schedule, and patients can easily
+                book online consultations.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Vue.js 3</span>
+                <span class="tech-tag">Vuetify</span>
+                <span class="tech-tag">Pinia</span>
+                <span class="tech-tag">Axios</span>
+              </div>
+              <!-- <a href="#" class="project-link"> View Project → </a> -->
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-info fade-in">
+            <h3>Lyes Rahal</h3>
+            <p>
+              Passionate web developer based in Algeria, specialized in creating
+              dynamic and responsive web applications with Vue.js, Django, and
+              Node.js.
+            </p>
+          </div>
+          <div class="footer-divider"></div>
+          <div class="footer-social fade-in">
+            <a href="https://github.com/Rahal-Lyes">
+              <span>
+                <img src="./social-links/Github_light.svg" width="40px"
+              /></span>
+            </a>
+            <a href="https://linkedin.com/in/rahal-lyes">
+              <span>
+                <img src="./social-links/linkedin.svg" width="40px"
+              /></span>
+            </a>
+            <a href="mailto:lyesrahal.cs@gmail.com">
+              <span>
+                <img src="./social-links/icons8-gmail.svg" width="40px"
+              /></span>
+            </a>
+            <a href="https://web.facebook.com/ilyes.rhl.5/">
+              <span>
+                <img src="./social-links/facebook.svg" width="40px"
+              /></span>
+            </a>
+          </div>
+        </div>
+        <div class="copyright fade-in">
+          © 2025 Lyes Rahal. All rights reserved.
+        </div>
+      </div>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
 </html>
